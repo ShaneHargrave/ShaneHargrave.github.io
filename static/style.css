@@ -30,6 +30,7 @@
     }
 
     .mynav {
+        background-color: black;
         flex-direction: row;
         align-items: flex-start;
         padding: 10px;
