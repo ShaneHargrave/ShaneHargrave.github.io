@@ -1,9 +1,11 @@
 body{
-    height: 2000px;
+    height: 4000px;
     transition: background-image 0.3s ease-in-out;
     background-image: url('../images/solarSystemBackground.png');
-    background-size: contain;
+    background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
