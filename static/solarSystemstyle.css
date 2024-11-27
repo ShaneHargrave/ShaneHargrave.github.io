@@ -1,0 +1,54 @@
+body{
+    height: 2000px;
+    transition: background-image 0.3s ease-in-out;
+    background-image: url('../images/solarSystemBackground.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.change{
+    text-align: center;
+    padding: 50px;
+}
+
+
+.mynav{
+    padding: 10px;
+    background-color: black;
+}
+
+.mynav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mynav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media (orientation: portrait) {
+    body {
+        font-size: 40px;
+    }
+
+    .mynav {
+        background-color: black;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .mynav ul{
+        margin-right: 10px;
+    }
+
+    .mynav ul li a {
+        padding: 10px;
+        text-align: center;
+    }
+
+
+}

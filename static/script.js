@@ -11,3 +11,17 @@
         gtag('config', 'G-VRQKTXG4CR');
     };
 })();
+
+const image1 = 'url("../images/solarSystemBackground.png")';
+const image2 = 'url("../images/sun.jpg")';
+
+window.addEventListener('scroll', function(){
+    let scrollPosition = window.scrollY;
+    let maxScroll = this.document.documentElement.scrollHeight - this.window.innerHeight;
+
+    let scrollRatio = scrollPosition / maxScroll;
+
+    let backgroundImage = scrollRatio < 0.2 ? image1 : image2;
+
+    this.document.body.style.backgroundImage = backgroundImage;
+});
