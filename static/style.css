@@ -7,3 +7,42 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.mynav{
+    padding: 10px;
+    background-color: black;
+}
+
+.mynav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mynav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media (orientation: portrait) {
+    body {
+        font-size: 10px;
+    }
+
+    .mynav {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .mynav ul{
+        margin-right: 10px;
+    }
+
+    .mynav ul li a {
+        padding: 10px;
+        text-align: center;
+    }
+
+
+}
