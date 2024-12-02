@@ -1,5 +1,5 @@
 body{
-    height: 4000px;
+    height: 11000px;
     transition: background-image 0.3s ease-in-out;
     background-image: url('../images/solarSystemBackground.png');
     background-size: 100%;
@@ -48,4 +48,80 @@ body{
     }
 
 
+}
+
+#title{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.SolarSystemInfo{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.Sun{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Mercury{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Venus{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Earth{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Mars{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Jupiter{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Saturn{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Uranus{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Neptune{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
