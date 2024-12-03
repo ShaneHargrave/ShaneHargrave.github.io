@@ -1,0 +1,26 @@
+body{
+    color: white;
+    height: 2160px;
+    background-image: url('../images/ConstellationBackground.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mynav{
+    padding: 10px;
+    background-color: black;
+}
+
+.mynav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mynav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
