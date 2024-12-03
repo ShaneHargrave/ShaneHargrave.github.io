@@ -25,6 +25,14 @@ body{
     margin-right: 20px;
 }
 
+.contain{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .Intro{
     border: 10px solid blue;
     background-color: aliceblue;
@@ -32,11 +40,61 @@ body{
     height:600px;
     width: 400px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #moreInfo{
     padding: 10px;
     color: black;
     text-align: start;
+}
+
+#moreImageInfo{
+    padding: 10px;
+    color: black;
+    text-align: start;
+}
+
+
+.ImageInfo{
+    border: 10px solid blue;
+    background-color: aliceblue;
+    color: black;
+    height:600px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ImageChart{
+    border: 10px solid blue;
+    width: 735px;
+    height: auto;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StarChart{
+    border: 10px solid blue;
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.SeasonImage{
+    border: 10px solid blue;
+    width: 800px;
+    height: 400px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
