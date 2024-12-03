@@ -59,14 +59,14 @@ https://getwallpapers.com/collection/outer-space-stars-wallpaper
 
 
 
-scrollThresholds = [1080, 2160, 3240, 4320, 5400, 6480, 7560, 8640, 9720, 10800];
+scrollPositionsOnScreen = [1080, 2160, 3240, 4320, 5400, 6480, 7560, 8640, 9720, 10800];
 
 window.addEventListener('scroll', function() {
     let scrollPosition = window.scrollY;
-    let index = scrollThresholds.findIndex(threshold => scrollPosition < threshold);
+    let index = scrollPositionsOnScreen.findIndex(threshold => scrollPosition < threshold);
 
     if (index === -1) {
-        index = scrollThresholds.length - 1;
+        index = scrollPositionsOnScreen.length - 1;
     }
 
     document.body.style.transition = 'background-image 0.5s ease';
