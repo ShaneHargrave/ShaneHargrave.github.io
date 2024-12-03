@@ -25,6 +25,10 @@ body{
     margin-right: 20px;
 }
 
+#title{
+    text-align: center;
+}
+
 .contain{
     padding: 10px;
     display: flex;
