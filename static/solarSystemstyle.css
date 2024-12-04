@@ -43,6 +43,8 @@ body{
     text-align: center;
 }
 
+
+
 .SolarSystemInfo {
     color: white;
     font-size: 20px;
@@ -88,6 +90,8 @@ body{
     color: black;
     text-align: center;
 }
+
+
 
 .Sun{
     color: white;
@@ -135,26 +139,89 @@ body{
     overflow: hidden;
 }
 
+
+
 .Mercury{
     color: white;
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.5vw;
     font-family: Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
 }
+
+#infoBoxOneMercury{
+    border: 10px solid black;
+    height: 800px;
+    width: 650px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: start;
+    overflow: scroll;
+}
+
+
 
 .Venus{
     color: white;
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.5vw;
     font-family: Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
 }
+
+#infoBoxOneVenus{
+    border: 10px solid black;
+    height: 800px;
+    width: 650px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: start;
+    overflow: scroll;
+}
+
+
 
 .Earth{
     color: white;
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.5vw;
     font-family: Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
 }
+
+#infoBoxOneEarth{
+    border: 10px solid black;
+    height: 800px;
+    width: 650px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: start;
+    overflow: scroll;
+}
+
+.rightSideEarth{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#infoBoxTwoEarth{
+    overflow: scroll;
+    padding: 10px;
+    border: 10px solid black;
+    height: 270px;
+    width: 750px;
+    background-color: white;
+    color: black;
+}
+
+
 
 .Mars{
     color: white;
