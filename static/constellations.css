@@ -53,12 +53,14 @@ body{
 }
 
 #moreInfo{
+    overflow: scroll;
     padding: 10px;
     color: black;
     text-align: start;
 }
 
 #moreImageInfo{
+    overflow: scroll;
     padding: 10px;
     color: black;
     text-align: start;
