@@ -37,31 +37,6 @@ body{
     margin-right: 20px;
 }
 
-@media (orientation: portrait) {
-    body {
-        font-size: 40px;
-        color: white;
-    }
-
-    .mynav {
-        background-color: black;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 10px;
-    }
-
-    .mynav ul{
-        margin-right: 10px;
-    }
-
-    .mynav ul li a {
-        padding: 10px;
-        text-align: center;
-    }
-
-
-}
-
 #title{
     color: white;
     font-size: 60px;
