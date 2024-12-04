@@ -30,4 +30,31 @@ body{
 
 #title{
     text-align: center;
+    color: white;
 }
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#info{
+    padding: 10px;
+    background-color: white;
+    border: 10px solid black;
+    height: 300px;
+    width: 400px;
+    color: black;
+}
+
+#moonPhase{
+    background-color: white;
+    border: 10px solid black;
+    height: 500px;
+    width: 700px;
+    color: black;
+    object-fit: contain;
+    overflow: hidden;
+}
+
