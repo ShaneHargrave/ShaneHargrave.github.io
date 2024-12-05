@@ -392,6 +392,22 @@ body{
     min-width: 1200px;
 }
 
+.rightSideUranus{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#infoBoxTwoUranus{
+    overflow: scroll;
+    padding: 10px;
+    border: 10px solid black;
+    height: 270px;
+    width: 750px;
+    background-color: white;
+    color: black;
+}
+
 #infoBoxOneUranus{
     border: 10px solid black;
     height: 800px;
