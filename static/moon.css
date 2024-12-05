@@ -28,6 +28,16 @@ body{
     margin-right: 20px;
 }
 
+.mynav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.mynav ul li a:visited {
+    color: red;
+}
+
 #title{
     text-align: center;
     color: white;

@@ -359,9 +359,22 @@ body{
 
 .Uranus{
     color: white;
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.5vw;
     font-family: Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+#infoBoxOneUranus{
+    border: 10px solid black;
+    height: 800px;
+    width: 650px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: start;
+    overflow: scroll;
 }
 
 .Neptune{
