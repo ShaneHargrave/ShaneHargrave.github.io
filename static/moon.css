@@ -59,13 +59,18 @@ body{
     overflow: scroll;
 }
 
-#moonPhase{
-    background-color: white;
+.Phase{
     border: 10px solid black;
-    height: 500px;
-    width: 700px;
+    max-height: 600px;
+    max-width: 600px;
+    width: 50%;
+    background-color: white;
     color: black;
     object-fit: contain;
-    overflow: scroll;
+    overflow: hidden;
+}
+
+#moonPhase{
+    width: 100%;
 }
 
