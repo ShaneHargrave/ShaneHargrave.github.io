@@ -38,3 +38,77 @@ body{
     font-size: 60px;
     text-align: center;
 }
+
+#InfoTitle{
+    text-align: center;
+    color: white;
+}
+
+.contain{
+    border: 10px solid red;
+    color: white;
+    font-size: 5vp;
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    min-width: 1000px;
+}
+
+#InfoBoxOne{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+#InfoBoxOne ul li{
+    list-style: none;
+}
+
+#InfoBoxTwo{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: 10px solid blue;
+}
+
+
+
+#Thermal{
+    border: 10px solid black;
+    max-height: 300px;
+    max-width: 300px;
+    width: 50%;
+    background-color: white;
+    color: black;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+#ThermalImage{
+    width: 100%;
+}
+
+#Blueshift{
+    color: blue;
+}
+
+#Redshift{
+    color:red;
+}
+
+#Doppler{
+    border: 10px solid black;
+    max-height: 300px;
+    max-width: 300px;
+    width: 50%;
+    background-color: white;
+    color: black;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+#DopplerImage{
+    width: 100%;
+}
