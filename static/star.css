@@ -112,3 +112,82 @@ body{
 #DopplerImage{
     width: 100%;
 }
+
+.test{
+    height: auto;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+#red:hover{
+    height: 300px;
+    width: 100px;
+    background-color: red;
+}
+
+#orange:hover{
+    height: 300px;
+    width: 100px;
+    background-color: orange;
+}
+
+#yellow:hover{
+    height: 300px;
+    width: 100px;
+    background-color: yellow;
+}
+
+#green:hover{
+    height: 300px;
+    width: 100px;
+    background-color: green;
+}
+
+#blue:hover{
+    height: 300px;
+    width: 100px;
+    background-color: blue;
+}
+
+#purple:hover{
+    height: 300px;
+    width: 100px;
+    background-color: purple;
+}
+
+#red{
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
+#orange{
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
+#yellow{
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
+#green{
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
+#blue{
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
+#purple{
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
