@@ -62,6 +62,14 @@ body{
     border: 10px solid green;
 }
 
+#InfoBoxOneI{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: 10px solid green;
+    max-width: 600px;
+}
+
 #InfoBoxOneD{
     height: auto;
     width: auto;
