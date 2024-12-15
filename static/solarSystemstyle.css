@@ -90,23 +90,17 @@ body{
 }
 
 #infoBoxTwo {
-    overflow: scroll;
-    padding: 10px;
     border: 10px solid black;
-    height: 270px;
+    height: auto;
     width: auto;
-    background-color: white;
-    color: black; 
+    max-height: 500px;
+    color: black;
+    object-fit: contain;
+    overflow: hidden; 
 }
 
-#infoBoxThree{
-    font-size: 5vp;
-    border: 10px solid black;
-    height: 360px;
-    width: auto;
-    background-color: white;
-    color: black;
-    text-align: center;
+#SystemImage{
+    width: 100%;
 }
 
 
