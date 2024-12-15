@@ -53,3 +53,63 @@ body{
     height: 30vh;
     font-size: 1.5vw;
 }
+
+@media(orientation: portrait){
+    body{
+        color: white;
+        background-image: url("../images/background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .mynav{
+        top: 0;
+        position: fixed;
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+    }
+    
+    .mynav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .mynav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .mynav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 3vw;
+    }
+    
+    .mynav ul li a:visited {
+        color: red;
+    }
+    
+    #title{
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+    }
+    
+    .Intro{
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        background-color: white;
+        border: 10px solid black;
+        color: black;
+        height: auto;
+        width: auto;
+        font-size: 3vw;
+    }
+
+}
