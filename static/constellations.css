@@ -140,3 +140,152 @@ body{
     width: 100%;
 }
 
+@media(orientation: portrait){
+    html, body{
+        min-width: 800px;
+        min-height:800px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    body{
+        height: auto;
+        color: white;
+        background-color: black;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    
+    .mynav{
+        top: 0;
+        position: fixed;
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+    }
+    
+    .mynav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .mynav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .mynav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 3vw;
+    }
+    
+    .mynav ul li a:visited {
+        color: red;
+    }
+    
+    #title{
+        color: white;
+        text-align: center;
+    }
+    
+    .contain{
+        font-size: 3vw;
+        padding: 10px;
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .Intro{
+        font-size: 3vw;
+        border: 10px solid blue;
+        background-color: aliceblue;
+        color: black;
+        height:auto;
+        width: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #moreInfo{
+        font-size: 3vw;
+        overflow: scroll;
+        padding: 10px;
+        color: black;
+        text-align: start;
+    }
+    
+    #moreImageInfo{
+        font-size: 3vw;
+        overflow: scroll;
+        padding: 10px;
+        color: black;
+        text-align: start;
+    }
+    
+    
+    .ImageInfo{
+        font-size: 3vw;
+        border: 10px solid blue;
+        background-color: aliceblue;
+        color: black;
+        height:auto;
+        width: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ImageChart{
+        border: 10px solid blue;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #chartImage{
+        width: 100%;
+    }
+    
+    .Season{
+        border: 10px solid blue;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 500px;  
+    }
+    
+    #seasonImage{
+        width: 100%;
+    }
+    
+    .StarChart{
+        border: 10px solid blue;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        min-width: 500px;
+    }
+    
+    #starChartIamge{
+        width: 100%;
+    }
+}
+
