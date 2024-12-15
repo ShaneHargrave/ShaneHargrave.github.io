@@ -276,6 +276,7 @@ body{
         width: auto;
         padding: 10px;
         border: 10px solid green;
+        max-width: 600px;
     }
     
     #InfoBoxOneI{
@@ -291,7 +292,6 @@ body{
         width: auto;
         padding: 10px;
         border: 10px solid green;
-        max-width: 400px;
     }
     
     #InfoBoxOne ul li{
